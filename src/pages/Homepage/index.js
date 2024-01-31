@@ -1,3 +1,5 @@
+import LayoutComponent from "../../layouts";
+
 export default function Homepage() {
-  return <></>;
+  return <LayoutComponent></LayoutComponent>;
 }

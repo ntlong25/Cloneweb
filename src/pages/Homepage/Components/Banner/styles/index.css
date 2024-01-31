@@ -1,0 +1,71 @@
+.slide-banner {
+  max-height: 645px;
+  padding-top: 2px;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.carousel-image {
+  height: 645px;
+  object-fit: cover;
+}
+
+.name-busines {
+  transition: none 0s ease 0s;
+  line-height: 78px;
+  border-width: 0px;
+  margin: 0px 0px 10px;
+  padding: 10px 0px;
+  letter-spacing: 0px;
+  font-weight: 800;
+  font-size: 60px;
+}
+
+.title-business {
+    transition: none 0s ease 0s;
+    line-height: 16px;
+    border-width: 0px;
+    margin: 0px 0px 5px;
+    padding: 0px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.btn-detail-business {
+    background-color: #3498db; 
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.5); 
+    border: 2px solid transparent; 
+    color: #fff;
+    border-radius: 30px; 
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+    line-height: 39px;
+    border-width: 2px;
+    margin: 0px;
+    padding: 0px 38px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-size: 13px;
+
+    &:hover {
+        background-color: transparent; 
+        border: 2px solid #3498db; 
+        color: #3498db; 
+      }
+}

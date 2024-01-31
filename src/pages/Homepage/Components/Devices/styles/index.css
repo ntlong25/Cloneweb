@@ -1,0 +1,30 @@
+.container-devices {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.content-devices {
+  line-height: 1.5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center ;
+}
+
+h2 span {
+  color: #0646a5;
+  text-transform: uppercase;
+}
+
+.tilte-devices {
+  width: 100%;
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 0;
+  font-family: montserrat, sans-serif;
+  text-transform: capitalize;
+}

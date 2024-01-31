@@ -1,0 +1,46 @@
+.container-contact {
+  width: 100%;
+  height: 230px;
+  background: #0646a5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.question-title-contact {
+  text-transform: uppercase;
+  font-size: 31px;
+  letter-spacing: 0;
+  font-weight: 800;
+  display: block;
+  padding-bottom: 10px;
+  color: #fff;
+}
+
+.btn-contact {
+  border: 2px solid #0c1f38;
+  background: #0c1f38;
+  max-width: 260px;
+  width: 100%;
+  margin-top: 10px;
+  color: white;
+  font-size: 14px;
+  line-height: 41px;
+  padding: 0 22px;
+  border-radius: 30px;
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  height: 44px;
+  text-align: center;
+  -webkit-transition: all .2s linear 0s;
+  -moz-transition: all .2s linear 0s;
+  -ms-transition: all .2s linear 0s;
+  -o-transition: all .2s linear 0s;
+  transition: all .2s linear 0s;
+}
+
+.btn-contact:hover{
+  color: #0646a5;
+}
