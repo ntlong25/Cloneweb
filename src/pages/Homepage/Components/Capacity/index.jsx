@@ -49,7 +49,7 @@ const Capacity = () => {
               />
               <div className="item-content-capacity">
                 <h3 className="item-title-capacity">{item.title}</h3>
-                <p style={{ textAlign: "left" }}>{item.content}</p>
+                <p style={{ textAlign: "justify" }}>{item.content}</p>
               </div>
             </div>
           ))}
@@ -62,7 +62,7 @@ const Capacity = () => {
             alt="capacity"
           />
           <div className="item-content-last">
-            <p style={{ textAlign: "left" }}>
+            <p style={{ textAlign: "justify" }}>
               {capacity[capacity.length-1].content}
             </p>
           </div>

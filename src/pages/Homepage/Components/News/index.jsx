@@ -71,7 +71,7 @@ const News = () => {
             <div className="item-content-news">
               <div>
                 <p style={{ textAlign: "left" }}>Ngày đăng: {item.date}</p>
-                <h5 className="item-title-news">{item.title.toUpperCase()}</h5>
+                <h5 className="item-title-news" >{item.title.toUpperCase()}</h5>
               </div>
               <p style={{ textAlign: "left" }}>
                 <button className="item-detail-news">Xem chi tiết <FaAngleRight /></button>
