@@ -10,6 +10,7 @@
 .content-news {
   line-height: 1.25;
   width: 100%;
+  background-color: aqua;
 }
 
 h2 span {
@@ -27,7 +28,7 @@ h2 span {
 
 .news-list {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
   grid-template-rows: repeat(auto-fit, 1fr);
   margin-bottom: 20px;
 }

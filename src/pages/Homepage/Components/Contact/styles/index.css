@@ -10,12 +10,13 @@
 
 .question-title-contact {
   text-transform: uppercase;
-  font-size: 31px;
+  font-size: 25px;
   letter-spacing: 0;
   font-weight: 800;
   display: block;
   padding-bottom: 10px;
   color: #fff;
+  text-align: center;
 }
 
 .btn-contact {

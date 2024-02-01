@@ -7,7 +7,9 @@ import "./main.css";
 export const categories = [
   {
     name: "Trang Chủ",
-    pathName: "trang-chu",
+    // pathName: "trang-chu",
+    pathName: "",
+
     component: <Homepage />,
   },
   {
